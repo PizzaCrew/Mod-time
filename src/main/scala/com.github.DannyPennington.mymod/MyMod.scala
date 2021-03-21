@@ -83,8 +83,7 @@ class MyMod() { // Register the setup method for modloading
     MyMod.LOGGER.info("HELLO from server starting")
   }
 
-
-  val block: Block = new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.HOE).harvestLevel(3)).setRegistryName("cool_block")
+  val block: Block = new BlockCool
 
   @SubscribeEvent
   def registerBlocks(event: RegistryEvent.Register[Block]): Unit = {
@@ -99,6 +98,5 @@ class MyMod() { // Register the setup method for modloading
     LOGGER.debug(s"REGISTERING MY TASTY ITEMS NOW: ${blockItem.toString}")
     event.getRegistry.register(blockItem)
   }
-
 
 }

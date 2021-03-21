@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "   ",
+    " D ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "mymod:cool_block"
+  }
+}
