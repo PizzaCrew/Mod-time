@@ -1,4 +1,4 @@
-package com.github.DannyPennington.mymod
+package com.github.PizzaCrew.mymod
 
 import net.minecraft.block.{AbstractBlock, Block, Blocks}
 import net.minecraftforge.common.{MinecraftForge, ToolType}
@@ -15,9 +15,10 @@ import org.apache.logging.log4j.LogManager
 
 import java.util.stream.Collectors
 import net.minecraftforge.scorge.lang.ScorgeModLoadingContext
-import com.github.DannyPennington.mymod.BlockCool
-import com.github.DannyPennington.mymod.MyMod.LOGGER
-import net.minecraft.block.material.Material
+import com.github.PizzaCrew.mymod.MyMod.LOGGER
+import com.github.PizzaCrew.mymod.common.blocks.CoolBlock.CoolBlock
+import com.github.PizzaCrew.mymod.common.materials.CoolBlockMat
+import net.minecraft.block.material.{Material, MaterialColor}
 import net.minecraft.item.{BlockItem, Item, ItemGroup}
 import net.minecraft.item.Item.Properties
 
@@ -68,7 +69,6 @@ class MyMod() { // Register the setup method for modloading
         MyMod.LOGGER.info("Hello world from the MDK")
         "Hello world"
       }
-
       foo()
     })
   }
@@ -83,7 +83,7 @@ class MyMod() { // Register the setup method for modloading
     MyMod.LOGGER.info("HELLO from server starting")
   }
 
-  val block: Block = new BlockCool
+  val block: Block = new CoolBlock
 
   @SubscribeEvent
   def registerBlocks(event: RegistryEvent.Register[Block]): Unit = {
