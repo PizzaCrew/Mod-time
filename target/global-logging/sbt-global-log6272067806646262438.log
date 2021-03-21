@@ -1,0 +1,65 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[warn] No sbt.version set in project/build.properties, base directory: C:\Users\danny\IdeaProjects\minecraft_mod
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (AdoptOpenJDK Java 11.0.9.1)
+[debug]       Load.loadUnit: plugins took 133.5752ms
+[debug]       Load.loadUnit: defsScala took 0.358ms
+[debug] [Loading] Scanning directory C:\Users\danny\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\danny\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 33.4393 ms
+[debug]           Load.resolveProject(global-plugins) took 67.0683ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\danny\.sbt\1.0\plugins, plugins: List(<none>))) took 146.2163ms
+[debug] [Loading] Done in C:\Users\danny\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 186.4648ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3122ms
+[debug]     Load.loadUnit(file:/C:/Users/danny/.sbt/1.0/plugins/, ...) took 331.8266ms
+[debug]   Load.apply: load took 597.9936ms
+[debug]   Load.apply: resolveProjects took 7.7534ms
+[debug]   Load.apply: finalTransforms took 72.7004ms
+[debug]   Load.apply: config.delegates took 11.9133ms
+[debug]   Load.apply: Def.make(settings)... took 856.2385ms
+[debug]   Load.apply: structureIndex took 114.6878ms
+[debug]   Load.apply: mkStreams took 2.0146ms
+[info] loading global plugins from C:\Users\danny\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4155.5807ms
+[debug]     Load.loadUnit: plugins took 32.3652ms
+[debug]     Load.loadUnit: defsScala took 0.005ms
+[debug] [Loading] Scanning directory C:\Users\danny\IdeaProjects\minecraft_mod
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\danny\IdeaProjects\minecraft_mod, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.7844 ms
+[debug]         Load.resolveProject(minecraft_mod) took 1.6896ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id minecraft_mod, base: C:\Users\danny\IdeaProjects\minecraft_mod, plugins: List(<none>))) took 6.0894ms
+[debug] [Loading] Done in C:\Users\danny\IdeaProjects\minecraft_mod, returning: (minecraft_mod)
+[debug]     Load.loadUnit: loadedProjectsRaw took 8.2746ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.016ms
+[debug]   Load.loadUnit(file:/C:/Users/danny/IdeaProjects/minecraft_mod/, ...) took 41.3503ms
+[debug] Load.apply: load took 43.4824ms
+[debug] Load.apply: resolveProjects took 0.1478ms
+[debug] Load.apply: finalTransforms took 13.692ms
+[debug] Load.apply: config.delegates took 0.4534ms
+[debug] Load.apply: Def.make(settings)... took 104.1272ms
+[debug] Load.apply: structureIndex took 34.3239ms
+[debug] Load.apply: mkStreams took 0.0029ms
+[info] set current project to minecraft_mod (in build file:/C:/Users/danny/IdeaProjects/minecraft_mod/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-5c74ca609ac0f046ac36
+[info] started sbt server
