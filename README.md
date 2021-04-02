@@ -9,3 +9,10 @@ IntelliJ start
 If at any point you are missing libraries in your IDE, or you've run into problems you can 
 run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
 {this does not affect your code} and then start the process again.
+
+## Useful links:
+- https://github.com/TheGreyGhost/MinecraftByExample
+- https://greyminecraftcoder.blogspot.com/2020/05/minecraft-by-example.html
+- https://mcforge.readthedocs.io/en/latest/
+- https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.16.5/
+- https://minecraftitemids.com/
